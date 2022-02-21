@@ -1,0 +1,64 @@
+Việc ứng dụng các hệ hỗ trợ ra quyết định dựa trên các mô hình dự báo
+giúp các doanh nghiệp xây dựng chiến lược phát triển sản xuất kinh doanh
+đúng đắn của mình trong tương lai, mang lại hiệu quả to lớn cho doanh
+nghiệp, tổ chức, v.v 
+Dự báo doanh thu chính xác là điều cần thiết cho một cửa hàng cho phép nó sản xuất số lượng sản phẩm cần thiết vào đúng thời điểm. 
+Hơn nữa,cửa hàng có thể chuẩn bị trước số lượng thiết bị, nhân công...v.v cần thiết.
+Một số  của hàng có nguồn thu nhập dựa trên các nhu cầu từ khách hàng, nhưng nhìn chung, cửa hàng thường sẽ chuẩn bị trước các sản phẩm, thiết bị để đón trước làn sóng nhu cầu của khác h trong tương lai, và làm như thế nào để thu hút nhiều khách hàng nhất có thể
+Nói cách khác, dự báo doanh số là ước tính tiềm năng bán hàng của cửa hàng trong tương lai. Tất cả các kế hoạch được dựa trên các dự báo doanh số.
+Tuy nhiên, sẽ có nhiều cửa hàng cạnh tranh, nên đưa ra các chiến lược hợp l
+Dự báo này giúp cho ban điều hành xác định doanh thu dự kiến, ước tính loại, số lượng và chất lượng bán hàng trong tương lai. 
+Mục tiêu cho nhà quản lý quyết định trên cơ sở dự báo trên những dữ liệu này và những dự báo này cũng giúp ích trong việc lập kế hoạch phát triển các mặt hàng mũi nhọn trong tương lai. 
+
+// Nó giúp đưa ra quyết định về việc nên mở rộng nhà máy và thay đổi trong hỗn hợp sản xuất 
+// hoặc nên chuyển hướng nguồn lực của mình để sản xuất các sản phẩm khác.
+// Nó giúp trong việc đề ra các chính sách.
+// Nó tạo điều kiện thuận lợi trong việc quyết định mức độ quảng cáo, v.v.
+
+Bộ dữ liệu ở đây được lấy từ một hệ thống cửa hàng điện tử ở Mỹ được ghi lại chi tiết những thông tin bao gồm: ....
+
+Trước khi đi vào phần dự đoán thì ta sẽ nhìn qua xem bộ dữ liệu của chúng ta có những thông tin gì cần quan tâm
+
+Trong dữ liệu này sẽ có 3 phân loại chính đó  là LT, CMR, MP. 
+Thì trong biểu đồ đầu tiên biểu thị số lượng sản phẩm tương ứng với mỗi loại đc bán ra trong 4 năm đầu tiên.
+Tổng quan dễ nhìn nhận được thì MP là loại đc bán ra nhiều nhất.
+Nhìn sang biểu đồ bên cạnh ta cũng nhận ra được 3 sản phẩm được bán nhiều nhất trong 4 năm qua là ... 
+Từ đó, nhà quản lý có thể chú trọng vào những sản phẩm bán chạy, áp dụng những quảng cáo truyền thông để thu hút thêm khách hàng đối với những sản phẩm này
+Tuy nhiên đối với những sản phẩm được ít chú ý đến, ta có thể điều chỉnh giá cả hợp lý, hoặc đưa ra những chính sách khuyến mãi để tránh hàng tồn kho quá lâu,
+tiêu hao nhiều chi phí hàng tồn hoặc bảo dưỡng lâu dài
+
+Biểu đồ phân tán biểu thị số lượng sản phẩm theo từng loại dã được bán ra theo trong 4 năm vừa qua.
+Chấm đỏ là Lt, chấm đen là MP, chấm xanh là cmr. Dựa vào biểu đồ phân tán này và cũng như phân tích ở trên, thì điện thoại sẽ luôn sản phẩm nhà quản lý nên ưu tiên hàng đầu
+
+
+
+Đây là biểu đồ biểu diễn doanh thu của cửa hàng theo từng tháng trong 4 năm vừa qua. Nhìn chung từ biểu đồ ta thấy doanh thu cửa hàng sẽ thấp vào nửa đầu năm và sẽ cao đột biến
+trong nửa cuối của năm
+
+
+
+Như đã nói ở phía trước thì, dự đoán doanh thu là có khuynh hướng giảm theo thời gian, dẫn đến việc doanh thu của cửa hàng được dự đoán trong tương lai sẽ giảm, 
+điều này gây ra ảnh hưởng xấu đến cửa hàng nếu cứ tiếp tục kinh doanh theo các chiến lược cũ. 
+Do đó, ta sẽ dự đoán ngắn hạn với thời gian là 12 tháng tiếp theo, cửa hàng phải đối mặt với việc cạnh tranh với các cửa hàng khác là khá lớn. 
+Và nhìn thấy trong đồ thị ở đây hầu hết các tháng đều thấp hơn các năm trước. 
+Vì vậy, trong năm tới cửa hàng cần phải đẩy mạnh các vấn đề về quảng cáo, truyền thông hoặc có các chương trình khuyến mãi sản phẩm, giảm giá các phẩm nếu cần thiết, 
+đề ra một chiến lược mang tính cạnh tranh với các cửa hàng đối thủ
+Với việc sử dụng dự báo doanh thu cửa hàng như một hướng dẫn, lập kế hoạch để quản lý cho nhân viên của cửa hàng một cách dễ dàng. 
+Bởi vì, Chi phí nhân công là một trong những chi phí lớn cho các cửa hàng, vậy nên, ta có thể áp dụng như sau, khoảng thời gian cửa hàng có doanh thu thấp nhất là 2 tháng đầu tiên của năm, khi đó, ta sẽ cắt giảm lượng nhân sự có mặt tại cửa hàng của mình, hoặc là càng ít nhân viên càng tốt, quyết định như vậy sẽ tối ưu ngân sách hơn. 
+Ngược lại, khi cuối năm thì cửa hàng bạn đón lượng khách hàng lớn nhất, ta sẽ cần nhắc số lượng nhân viên cũng phải lớn hơn so với ngày thường.
+
+
+-- Không chỉ dự báo về doanh thu của hàng trong 1 năm tiếp theo, em cũng dự đoán về số lượng sản phẩm theo từng mục đã được phân chia ra thành 3 loại chính đó chính là Laptops, Cmr, MP, 
+bản dự báo có thể giúp ta dự đoán được doanh số của mình trong một khoảng thời gian với độ chính xác nhất định. Điều này bao gồm việc dự báo số lượng sản phẩn cần phải chuẩn bị mà không gây ra tình trạng thiếu hụt hay tồn kho.
+Thông thường, trong một cửa hàng luôn có những thời điểm,  không thể dự báo trước, khoảng thời gian có thể sẽ gặp phải số lượng lớn bất ngờ khách hàng, số lượng lớn sản phẩm bán ra hay những ngày ảm  đến bất thường. 
+Và do đó, việc dự báo doanh số này vẫn có thể giúp bạn ước tính được ta sẽ chuẩn bị sản phẩm gì, với số lượng bao nhiêu. 
+Nhìn chung đói với Lt, và cmr, thì ta để ý rằng số lượng sản phẩm đưuọc dự đoán sẽ đc bán vào năm sau có số lượng khá giống với năm trước. 
+Tuy nhiên, bởi vì sự tiến bộ của công nghệ, các sản phẩm mới xuất hiện trên thị trường ngày càng nhiều và sở thích của khách hàng cũng sẽ thay đổi theo sự tiến bộ và thay đổi của công nghệ. 
+ta thấy rắng sự thay đổi về mặt công nghệ của LT, hay cmr đều chậm hơn so với điện thoại, điều này cũng dẫn đến lý do tại sao số lượng điện thoại dự đoán đc bán ra thị trường thấp hơn so với năm ngoái. Do đó, để nhận biết được cần nhập số lượng sản phẩm sao cho hợp lý với từng tháng. 
+Đói với những mặt hàng tồn kho như máy tính hay cmr, 2 loại sản phẩm này cũng có khả năng được bán trong tương lai. 
+đặc biệt vối với điện thoại, mặc dù số lượng sp bán ra gianrm nhưng vẫn chiếm sô lượng lớn. Điện thoại ra sản phẩm mới, mẫu mới ngày 1 nhiều, nên để theo kịp nhu cầu của khách, cửa hàng cần phải thường xuyên theo dõi thi trường, cập nhật thông tin các sản phẩm mới nhất và không quên đưa ra các chính sách khuyễn mãi, quà tặng, phù hợp để có thể bán được những sản phẩm lỗi thời, hoặc ít có khả năng tiêu th
+
+
+
+
+
